@@ -1,0 +1,18 @@
+Index: src/Program.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nimport RozwiazaniaZadan._16_07.Zadanie1;\r\nimport RozwiazaniaZadan._16_07.Zadanie2;\r\n\r\npublic class Program {\r\n\r\n    public static void main(String[] args) {\r\n        //Zadanie1.Rozwiazanie();\r\n        Zadanie2.Rozwiazanie();\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Program.java b/src/Program.java
+--- a/src/Program.java	
++++ b/src/Program.java	
+@@ -5,7 +5,8 @@
+ public class Program {
+ 
+     public static void main(String[] args) {
+-        //Zadanie1.Rozwiazanie();
++        Zadanie1.Rozwiazanie();
+         Zadanie2.Rozwiazanie();
++
+     }
+ }
